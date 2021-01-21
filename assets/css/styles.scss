@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-image: url(../images/head-image.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: left;
+
+  .nav {
+    width: 100%;
+    background-color: transparent;
+    .nav-list {
+      float: right;
+      display: flex;
+      
+    }
+  }
+}

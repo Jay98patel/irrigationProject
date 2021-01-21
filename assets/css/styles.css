@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-image: url(../images/head-image.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: left;
+}
+
+header .nav {
+  width: 100%;
+  background-color: transparent;
+}
+
+header .nav .nav-list {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=styles.css.map */
